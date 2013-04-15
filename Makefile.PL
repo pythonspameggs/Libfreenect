@@ -50,7 +50,6 @@ if  (eval {require ExtUtils::Constant; 1}) {
               {name=>"FREENECT_VIDEO_YUV_RGB", macro=>"1"},
               {name=>"LED_BLINK_GREEN", macro=>"1"},
               {name=>"LED_BLINK_RED_YELLOW", macro=>"1"},
-              {name=>"LED_BLINK_YELLOW", macro=>"1"},
               {name=>"LED_GREEN", macro=>"1"},
               {name=>"LED_OFF", macro=>"1"},
               {name=>"LED_RED", macro=>"1"},
