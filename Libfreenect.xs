@@ -136,16 +136,16 @@ _set_user( void* f_dev, void* user )
 		freenect_set_user( f_dev, user );
 
 void*
-_set_depth_format( void* f_dev, int fmt )
+_set_depth_mode( void* f_dev, int fmt )
 	CODE:
-		RETVAL = freenect_set_depth_format( f_dev, fmt );
+		RETVAL = freenect_set_depth_mode( f_dev, fmt );
 	OUTPUT:
 		RETVAL
 
 void*
-_set_video_format( void* f_dev, int fmt )
+_set_video_mode( void* f_dev, int fmt )
 	CODE:
-		RETVAL = freenect_set_video_format( f_dev, fmt );
+		RETVAL = freenect_set_video_mode( f_dev, fmt );
 	OUTPUT:
 		RETVAL
 

@@ -252,16 +252,16 @@ sub set_user {
   Libfreenect::_set_user( $self->{f_dev}, $user );
 }
 
-sub set_depth_format {
+sub set_depth_mode {
   my $self = shift;
   my $fmt = shift;
-  return Libfreenect::_set_depth_format( $self->{f_dev}, $fmt );
+  return Libfreenect::_set_depth_mode( $self->{f_dev}, $fmt );
 }
 
-sub set_video_format {
+sub set_video_mode {
   my $self = shift;
   my $fmt = shift;
-  return Libfreenect::_set_video_format( $self->{f_dev}, $fmt );
+  return Libfreenect::_set_video_mode( $self->{f_dev}, $fmt );
 }
 
 sub set_depth_buffer {
